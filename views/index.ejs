@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My CRUD in NodeJS</title>
+</head>
+<body>
+
+    <h1>Registrar</h1>
+    <form action="/show" method="POST">
+      <label for="name">Nome</label><br>
+        <input type="text" placeholder="Nome" name="name"><br>
+      <label for="surname">Sobrenome</label><br>
+        <input type="text" placeholder="Sobrenome" name="surname"><br>
+      <label for="email">Digite Seu Email</label><br>
+        <input type="email" placeholder="yourmail@host.com" name="email"><br>
+      <label for="confirmemail">Confirme Seu Email</label><br>
+        <input type="email" placeholder="yourmail@host.com" name="confirmemail"><br>
+      <label for="password">Digite Sua Senha</label><br>
+        <input type="password"  name="password"><br>
+      <label for="confirmpassword">Confirme sua Senha</label><br>
+        <input type="password"  name="confirmpassword"><br>
+      <label for="CPF">Digite seu CPF</label><br>
+        <input type="number" placeholder="CPF" name="CPF"><br>
+      <label for="telephone">Digite seu Telefone</label><br>
+        <input type="tel" placeholder="(xx)xxxxx-xxxx" name="telephone"><br>
+      <label for="gender">Digite seu Sexo</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+      <label for="birthdate">Digite sua Data de Nascimento</label><br>
+        <input type="date"  name="birthdate">
+        <button type="submit">Submit</button>
+    </form> 
+
+</body>
+</html>
